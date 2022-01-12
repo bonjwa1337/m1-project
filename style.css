@@ -87,7 +87,7 @@ body {
     }
 }
 
-@media (min-width:320px) and (max-width: 991px) {
+@media (max-width: 991px) {
 
     .additional {
         margin-left: 0;
@@ -210,7 +210,7 @@ body {
     }
 }
 
-@media (min-width:320px) and (max-width: 991px) {
+@media (max-width: 991px) {
 
     .programm-title {
         margin-top: 35px;
