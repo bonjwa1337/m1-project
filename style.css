@@ -21,9 +21,6 @@ body {
     margin: 0 auto;
 }
 
-.additional {
-    margin-left: 37px;
-}
 
 .format-flex {
     display: flex;
@@ -52,10 +49,6 @@ body {
 
 @media (min-width:992px) and (max-width: 1279px) {
 
-    .additional {
-        margin-left: 22px;
-    }
-
     .format-title {
         margin-top: 102px;
         font-size: 32px;
@@ -80,10 +73,6 @@ body {
 }
 
 @media (max-width: 992px) {
-
-    .additional {
-        margin-left: 0;
-    }
 
     .format-title {
         margin-top: 70px;
