@@ -74,6 +74,11 @@ body {
 
 @media (max-width: 992px) {
 
+    .additional {
+        width: 90%;
+        margin: 0 auto;
+    }
+
     .format-title {
         margin-top: 70px;
         font-size: 26px;
