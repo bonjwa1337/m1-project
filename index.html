@@ -5,198 +5,210 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <style>
+        .course-short-description,
+        .description-text,
+        .course-costs {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .course-short-description {
+            align-items: flex-start;
+            padding: 4em 0 12em 7.7em;
+            background-color: #9DC9C8;
+        }
+
+        .course-short-description>* {
+            margin: 2em 1em 1em 0;
+        }
+
+        .course-short-description-header {
+            font-family: Roboto Slab;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 55px;
+            line-height: 101.38%;
+        }
+
+        .course-costs-header,
+        .description-text-header,
+        .description-text-description,
+        .footer-contacts-text,
+        .footer-bottom {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 25px;
+            line-height: 101.38%;
+        }
+
+        .course-costs-number {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 80px;
+            line-height: 101.38%;
+            color: #000000;
+        }
+
+        .course-short-description-text {
+            display: flex;
+        }
+
+        .description-text {
+            width: 16.5em;
+            margin-right: 1em;
+        }
+
+        .description-text>* {
+            margin-bottom: 1em;
+        }
+
+        .description-text-description {
+            font-size: 18px;
+        }
+
+        .footer {
+            background: #000000;
+            height: 24.4em;
+            color: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 3.7em 9em 2em 6em;
+        }
+
+        .footer-top {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .footer-logo-mobile {
+            height: 68px;
+            width: 115px;
+            background: url(logo_mobile_white.png);
+        }
+
+        .footer-logo-social {
+            margin-top: 2em;
+            display: flex;
+        }
+
+        .footer-logo-social>* {
+            margin-right: 1em;
+        }
+
+        .footer-logo-instagram {
+            width: 33px;
+            height: 33px;
+            background: url(instagram.png);
+        }
+
+
+        .footer-logo-facebook {
+            width: 32px;
+            height: 32px;
+            background: url(fb.png);
+        }
+
+
+        .footer-logo-vk {
+            width: 34px;
+            height: 34px;
+            background: url(vk.png);
+        }
+
+
+        .footer-logo-watsapp {
+            width: 34px;
+            height: 34px;
+            background: url(watsapp.png);
+        }
+
+        .footer-contact {
+            display: flex;
+            align-items: center;
+            margin: 1em;
+        }
+
+        .footer-contacts-phone-icon,
+        .footer-contacts-email-icon {
+            width: 27px;
+            height: 27px;
+            margin-right: 1em;
+        }
+
+        .footer-contacts-phone-icon {
+            background: url(phone_white.png);
+        }
+
+        .footer-contacts-email-icon {
+            height: 18px;
+            background: url(mail_white.png);
+        }
+
+        .footer-bottom {
+            font-size: 18px;
+        }
+    </style>
 </head>
 
 <body>
-
-    <!-- шапка + верхний блок Lada-->
-
-    <!-- о курсе Lada-->
-
-    <!-- формат занятий Ivan-->
-    <div class="wrapper">
-        <section class="additional">
-            <h2 class="format-title">Формат занятий</h2>
-            <div class="format-flex">
-                <div class="format-descr">
-                    <span class="format-subtitle">Вебинары</span>
-                    <p class="format-text">
-                        Занятия проходят онлайн
-                        в режиме вебинаров
-                        с преподавателем
-                    </p>
-                </div>
-                <div class="format-descr">
-                    <span class="format-subtitle">Доступ навсегда</span>
-                    <p class="format-text">
-                        Если вы не успели на вебинар, всегда можете посмотреть запись в личном кабинете
-                    </p>
-                </div>
-                <div class="format-descr">
-                    <span class="format-subtitle">Общение</span>
-                    <p class="format-text">
-                        Вы можете задать вопрос
-                        преподавателю на занятии
-                    </p>
-                </div>
+    <div class="course-short-description">
+        <h3 class="course-short-description-header">Начало курса - 8 сентября</h3>
+        <div class="course-costs">
+            <span class="course-costs-header">Стоимоть</span>
+            <span class="course-costs-number">3900 руб</span>
+        </div>
+        <div class="course-short-description-text">
+            <div class="description-text">
+                <span class="description-text-header">Для любого уровня</span>
+                <span class="description-text-description">
+                    Курсы подходят и тем, кто начинает &#171;с нуля&#187;, и тем, кто хочет упорядочить имеющиеся знания
+                </span>
             </div>
-        </section>
-
-        <!-- что узнаем-->
-
-        <section class="additional">
-            <h2 class="format-title">Что узнаем</h2>
-            <ul class="knowledge-list">
-                <li>Кто чем занят в съёмочной группе;</li>
-                <li>На какие этапы делится кинопроизводство;</li>
-                <li>Как выглядит сценарий фильма и как он меняется
-                    по ходу съёмок;</li>
-                <li>Какими методами режиссёры заставляют нас смеяться, плакать и грустить;</li>
-                <li>Как построение кадра, музыка и свет помогают считывать заложенные в фильм смыслы;</li>
-                <li>Какие жанры есть в кино и как от них зависит работа операторов, осветителей и монтажёров;</li>
-                <li>Как, зная всё это, понимать, о чем фильм.</li>
-            </ul>
-        </section>
-
-        <!-- программа курса Ivan-->
-
-        <section class="additional">
-            <h2 class="programm-title">Программа курса</h2>
-            <div class="programm-tabs">
-                <div class="programm-tab">
-                    <img class="programm-oscar" src="img/how-create.png" alt="Как создают кино">
-                    <div class="programm-text">
-                        <h3 class="programm-tab-title">
-                            1. Как создают кино
-                        </h3>
-                        <div class="programm-tab-descr">
-                            <p>8 сентября 20:00</p>
-                            <p>Данила Кузнецов</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="programm-tab">
-                    <img src="img/view-drama.png" alt="Взгляд драматурга">
-                    <div class="programm-text">
-                        <h3 class="programm-tab-title">
-                            2. Взгляд драматурга
-                        </h3>
-                        <div class="programm-tab-descr">
-                            <p>10 сентября 20:00</p>
-                            <p>Данила Кузнецов</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="programm-tab">
-                    <img src="img/view-director.png" alt="Взгляд режиссёра">
-                    <div class="programm-text">
-                        <h3 class="programm-tab-title">
-                            3. Взгляд режиссёра
-                        </h3>
-                        <div class="programm-tab-descr">
-                            <p>13 сентября 13:00</p>
-                            <p>Данила Кузнецов</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="programm-tab">
-                    <img src="img/view-editor.png" alt="Взгляд монтажёра">
-                    <div class="programm-text">
-                        <h3 class="programm-tab-title">
-                            4. Взгляд монтажёра
-                        </h3>
-                        <div class="programm-tab-descr">
-                            <p>15 сентября 20:00</p>
-                            <p>Данила Кузнецов</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="programm-tab">
-                    <img src="img/genres.png" alt="Жанры в кино">
-                    <div class="programm-text">
-                        <h3 class="programm-tab-title">
-                            5. Жанры в кино
-                        </h3>
-                        <div class="programm-tab-descr">
-                            <p>17 сентября 20:00</p>
-                            <p>Данила Кузнецов</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="programm-tab">
-                    <img src="img/lang-of-cinema.png" alt="Язык кино. Семинар">
-                    <div class="programm-text">
-                        <h3 class="programm-tab-title">
-                            6. Язык кино. Семинар
-                        </h3>
-                        <div class="programm-tab-descr">
-                            <p>20 сентября 13:00</p>
-                            <p>Данила Кузнецов</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="programm-tab">
-                    <img src="img/view-revisor.png" alt="Взгляд кинокритика">
-                    <div class="programm-text">
-                        <h3 class="programm-tab-title">
-                            7. Взгляд кинокритика
-                        </h3>
-                        <div class="programm-tab-descr">
-                            <p>21 сентября 19:00</p>
-                            <p>Дмитрий Скворцов</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="programm-tab">
-                    <img src="img/viewer.png" alt="Осознанный зритель. Семинар">
-                    <div class="programm-text">
-                        <h3 class="programm-tab-title">
-                            8. Осознанный зритель. Семинар
-                        </h3>
-                        <div class="programm-tab-descr">
-                            <p>22 сентября 19:00</p>
-                            <p>Дмитрий Скворцов</p>
-                        </div>
-                    </div>
-                </div>
-
-
+            <div class="description-text">
+                <span class="description-text-header">Приходите сейчас</span>
+                <span class="description-text-description">
+                    Если вы не успели на вебинар, всегда можете посмотреть запись в личном кабинете
+                </span>
             </div>
-        </section>
-    </div>
-    <!-- курс прошло -->
-    <div class="review-color">
-        <div class="wrapper">
-            <section class="additional">
-                <h2 class="format-title">Курс прошло уже 1616 человек</h2>
-                <div class="review">
-                    <p class="review-text">
-                        Курс профессионально подготовлен, изложение материала весьма доступное, благодаря прекрасному
-                        изложению лекторов и демонстрации примеров. А наличие домашних заданий позволяет закрепить все
-                        полученные знания на практике. Теперь другими глазами смотрю фильмы, считываю не только сюжет ,
-                        но и
-                        могу оценить работу режиссера, оператора, монтажера и т.д. Спасибо!
-                    </p>
-                    <div class="review-author">
-                        <img class="review-img" src="img/author.png" alt="Автор обзора">
-                        <div class="review-contact">
-                            <span class="review-name">Екатерина Палехова</span>
-                            <img class="review-facebook" src="img/facebook.png" alt="facebook">
-                        </div>
-                    </div>
-                </div>
-            </section>
         </div>
     </div>
+    <footer class="footer">
+        <div class="footer-top">
+            <div>
+                <div class="footer-logo-mobile"></div>
+                <div class="footer-logo-social">
+                    <div class="footer-logo-instagram"></div>
+                    <div class="footer-logo-facebook"></div>
+                    <div class="footer-logo-vk"></div>
+                    <div class="footer-logo-watsapp"></div>
+                </div>
+            </div>
+            <div class="footer-contacts">
+                <div class="footer-contact">
+                    <div class="footer-contacts-phone-icon">
 
-    <!-- начало курса Ekaterina-->
+                    </div>
+                    <span class="footer-contacts-text">
+                        +7 (499) 39-146-39
+                    </span>
+                </div>
+                <div class="footer-contact">
+                    <div class="footer-contacts-email-icon">
 
-    <!-- подвал сайта Ekaterina-->
-
+                    </div>
+                    <span class="footer-contacts-text">
+                        hello@synchronize.ru
+                    </span>
+                </div>
+            </div>
+        </div>
+        <span class="footer-bottom">© Синхронизация, 2020</span>
+    </footer>
 </body>
 
 </html>
