@@ -1,5 +1,4 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -16,11 +15,9 @@ body {
     padding: 0 20px;
 }
 
-
 .additional {
     padding: 100px 0;
 }
-
 
 .format-flex {
     display: flex;
@@ -47,27 +44,21 @@ body {
 }
 
 @media (min-width:992px) and (max-width: 1279px) {
-
     .additional {
         padding: 65px 0;
     }
-
     .format-title {
         font-size: 32px;
     }
-
     .format-flex {
         margin-top: 78px;
     }
-
     .format-descr {
         margin-right: 50px;
     }
-
     .format-subtitle {
         font-size: 15px;
     }
-
     .format-text {
         font-size: 11px;
         margin-top: 8px;
@@ -75,29 +66,23 @@ body {
 }
 
 @media (max-width: 992px) {
-
     .additional {
         padding: 35px 0;
     }
-
     .format-title {
         font-size: 26px;
     }
-
     .format-flex {
         margin-top: 36px;
         flex-direction: column;
     }
-
     .format-descr {
         margin-right: 0;
         margin-bottom: 35px;
     }
-
     .format-subtitle {
         font-size: 12px;
     }
-
     .format-text {
         font-size: 10px;
         margin-top: 8px;
@@ -148,34 +133,27 @@ body {
 }
 
 @media (min-width:992px) and (max-width: 1279px) {
-
     .programm-title {
         font-size: 32px;
     }
-
     .programm-tabs {
         margin-top: 80px;
         gap: 21px;
         margin-bottom: 52px;
     }
-
     .programm-tab {
         box-shadow: 0.5px 0.5px 8.6px rgba(0, 0, 0, 0.25);
         border-radius: 17px;
     }
-
     .programm-tab img {
         height: 92px;
     }
-
     .programm-text {
         padding: 11px;
     }
-
     .programm-tab-title {
         font-size: 17px;
     }
-
     .programm-tab-descr {
         margin-top: 18px;
         font-size: 14px;
@@ -183,33 +161,26 @@ body {
 }
 
 @media (max-width: 992px) {
-
     .programm-title {
         font-size: 26px;
     }
-
     .programm-tabs {
         margin-top: 56px;
         margin-bottom: 57px;
     }
-
     .programm-tab {
         box-shadow: 0.4px 0.4px 6.9px rgba(0, 0, 0, 0.25);
         border-radius: 14px;
     }
-
     .programm-tab img {
         height: 74px;
     }
-
     .programm-text {
         padding: 9px;
     }
-
     .programm-tab-title {
         font-size: 14px;
     }
-
     .programm-tab-descr {
         margin-top: 15px;
         font-size: 12px;
@@ -217,7 +188,6 @@ body {
 }
 
 @media (min-width: 600px) and (max-width: 992px) {
-
     .programm-tab {
         width: calc(100% / 3 - 37px);
         box-shadow: 0.4px 0.4px 6.9px rgba(0, 0, 0, 0.25);
@@ -234,11 +204,9 @@ body {
 }
 
 @media (max-width: 375px) {
-
     .programm-tabs {
         justify-content: center;
     }
-
     .programm-tab {
         width: calc(100% - 37px);
         box-shadow: 0.4px 0.4px 6.9px rgba(0, 0, 0, 0.25);
@@ -255,7 +223,6 @@ body {
 }
 
 @media (min-width:992px) and (max-width: 1279px) {
-
     .knowledge-list {
         max-width: 383px;
         margin-top: 65px;
@@ -265,7 +232,6 @@ body {
 }
 
 @media (max-width: 992px) {
-
     .knowledge-list {
         margin-top: 32px;
         margin-left: 20px;
@@ -315,7 +281,6 @@ body {
 }
 
 @media (min-width:992px) and (max-width: 1279px) {
-
     .review {
         margin-top: 45px;
         padding: 26px 23px;
@@ -323,26 +288,21 @@ body {
         box-shadow: 0.57px 0.57px 11.5px rgba(0, 0, 0, 0.25);
         border-radius: 17px;
     }
-
     .review-text {
         font-size: 12px;
     }
-
     .review-name {
         font-size: 17px;
     }
-
     .review-facebook {
         width: 18px;
         height: 18px;
         margin-top: 20px;
     }
-
     .review-img {
         width: 110px;
         height: 97px;
     }
-
     .review-contact {
         margin-left: 16px;
     }
@@ -354,27 +314,165 @@ body {
         padding: 18px 21px;
         max-width: 308px;
     }
-
     .review-text {
         font-size: 10px;
     }
-
     .review-name {
         font-size: 14px;
     }
-
     .review-facebook {
         width: 14px;
         height: 17px;
         margin-top: 20px;
     }
-
     .review-img {
         width: 87px;
         height: 87px;
     }
-
     .review-contact {
         margin-left: 14px;
     }
+}
+
+.course-short-description,
+.description-text,
+.course-costs {
+    display: flex;
+    flex-direction: column;
+}
+
+.course-short-description {
+    align-items: flex-start;
+    padding: 4em 0 12em 7.7em;
+    background-color: #9DC9C8;
+}
+
+.course-short-description>* {
+    margin: 2em 1em 1em 0;
+}
+
+.course-short-description-header {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+}
+
+.course-costs-header,
+.description-text-header,
+.description-text-description,
+.footer-contacts-text,
+.footer-bottom {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 101.38%;
+}
+
+.course-costs-number {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 101.38%;
+    color: #000000;
+}
+
+.course-short-description-text {
+    display: flex;
+}
+
+.description-text {
+    width: 16.5em;
+    margin-right: 1em;
+}
+
+.description-text>* {
+    margin-bottom: 1em;
+}
+
+.description-text-description {
+    font-size: 18px;
+}
+
+.footer {
+    background: #000000;
+    height: 24.4em;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3.7em 9em 2em 6em;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo-mobile {
+    height: 68px;
+    width: 115px;
+    background: url(img/logo_mobile_white.png);
+}
+
+.footer-logo-social {
+    margin-top: 2em;
+    display: flex;
+}
+
+.footer-logo-social>* {
+    margin-right: 1em;
+}
+
+.footer-logo-instagram {
+    width: 33px;
+    height: 33px;
+    background: url(img/instagram.png);
+}
+
+.footer-logo-facebook {
+    width: 32px;
+    height: 32px;
+    background: url(img/fb.png);
+}
+
+.footer-logo-vk {
+    width: 34px;
+    height: 34px;
+    background: url(img/vk.png);
+}
+
+.footer-logo-watsapp {
+    width: 34px;
+    height: 34px;
+    background: url(img/watsapp.png);
+}
+
+.footer-contact {
+    display: flex;
+    align-items: center;
+    margin: 1em;
+}
+
+.footer-contacts-phone-icon,
+.footer-contacts-email-icon {
+    width: 27px;
+    height: 27px;
+    margin-right: 1em;
+}
+
+.footer-contacts-phone-icon {
+    background: url(img/phone_white.png);
+}
+
+.footer-contacts-email-icon {
+    height: 18px;
+    background: url(img/mail_white.png);
+}
+
+.footer-bottom {
+    font-size: 18px;
 }
