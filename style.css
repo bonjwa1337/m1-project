@@ -119,7 +119,7 @@ body {
 }
 
 .programm-tab {
-    width: calc(100% / 3 - 37px);
+    width: calc(100% / 3 - 25px);
     background: #FFFFFF;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
